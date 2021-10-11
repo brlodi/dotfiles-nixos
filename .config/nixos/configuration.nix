@@ -68,6 +68,7 @@
   environment.systemPackages = with pkgs; [
     chromium
     git
+    git-lfs
     nixpkgs-fmt
     tree
     vim
