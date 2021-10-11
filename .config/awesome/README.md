@@ -1,6 +1,6 @@
 # Modular Awesome WM configuration
 
-Awesome is pretty... well, awesome. Unfortunately the default sample config file is a messy, complex **564 line** behemoth that's frankly almost impossibel to grok as a new user.
+Awesome is pretty... well, awesome. Unfortunately the default sample config file is a messy, complex **564 line** behemoth that's frankly almost impossible to grok as a new user.
 
 Luckily, a wonderful dev by the name of [Epsi R Nurwijayadi](http://epsi-rns.github.io/) took it upon himself to modularize that default configuration, complete with [extensive documentation](http://epsi-rns.github.io/desktop/2019/06/15/awesome-overview.html) of the reasoning for each choice he's made.
 
