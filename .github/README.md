@@ -13,3 +13,13 @@ git clone --separate-git-dir=~/.dotfiles https://github.com/brlodi/dotfiles-nixo
 sudo rm -r /etc/nixos
 sudo ln -s ~/.config/nixos /etc/nixos
 ```
+
+## Acknowledgements
+
+### References / Inspiration
+
+- [Modularized Awesome Configuration](https://gitlab.com/epsi-rns/dotfiles/-/tree/master/awesome/4.3) &mdash; [Epsi R Nurwijayadi](http://epsi-rns.github.io/)
+
+### Awesome WM components
+
+- [awesome-freedesktop](https://github.com/lcpz/awesome-freedesktop)
