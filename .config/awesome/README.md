@@ -14,3 +14,6 @@ Awesome includes a dmenu-esque XDG-compatible application-launcher that can be s
 
 However, thanks to the architecture of awesome, the machinery used to generate that menubar is available to other config files. The project [awesome-freedesktop](https://github.com/lcpz/awesome-freedesktop) leverages that machinery to generate entries in a standard `awful.menu`, which can be made available via the awesome logo button as well as the right-click menu on the desktop.
 
+The results can be seen below:
+
+![](./docs/xdg-menu.jpg)
