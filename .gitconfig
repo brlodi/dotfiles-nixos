@@ -1,0 +1,6 @@
+[user]
+	email = brlodi@gmail.com
+	name = Benjamin Lodi
+[core]
+	editor = vim -c 'startinsert'
+
