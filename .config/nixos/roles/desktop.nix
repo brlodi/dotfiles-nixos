@@ -8,8 +8,15 @@ let
   };
 in
 {
+  environment.systemPackages = with pkgs; [
+    chromium
+    feh
+    maim
+  ];
+  
   services.xserver = {
     enable = true;
+    layout = "us";
     resolutions = [
       { "x" = 1920; "y" = 1080; }
       { "x" = 1920; "y" = 1200; }
@@ -27,13 +34,13 @@ in
         invalid-password-text = try again
         password-alignment = left
         password-input-width = 16
-        
+      
         [greeter-theme]
         font = "Sans"
         font-size = 16px
         font-weight = normal
         password-character = ⚹
-        
+      
         background-color = "#000000"
         window-color = "#393939"
         border-color = "#2d2d2d"
@@ -42,7 +49,7 @@ in
         password-color = "#f2f0ec"
         password-background-color = "#2d2d2d"
         password-border-color = "#2d2d2d"
-        
+      
         border-width = 0
         password-border-width = 0
         password-border-radius = 0

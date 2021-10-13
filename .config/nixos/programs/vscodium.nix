@@ -9,7 +9,9 @@ let
     vscodeExtensions = extensions;
   };
 in {
-  environment.systemPackages = [
+  environment.systemPackages = with pkgs; [
+    nixpkgs-fmt
     vscodium-with-extensions
   ];
 }
+
