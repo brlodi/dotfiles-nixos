@@ -14,6 +14,6 @@
   };
 
   outputs = { self, nixpkgs, home-manager, hyprland, ... }: {
-    nixosConfigurations = import ./utils/getNixOSConfiguration.nix (./hosts);
+    nixosConfigurations = import ./utils/getNixOSConfigurations.nix (./hosts);
   };
 }
