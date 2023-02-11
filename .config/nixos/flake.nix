@@ -14,11 +14,6 @@
   };
 
   outputs = { self, nixpkgs, home-manager, hyprland, ... }: {
-    nixosConfigurations = (
-      import ./hosts {
-        inherit (nixpkgs) lib;
-        inherit nixpkgs;
-      }
-    );
+    nixosConfigurations = import ./utils/getNixOSConfiguration.nix (./hosts);
   };
 }
