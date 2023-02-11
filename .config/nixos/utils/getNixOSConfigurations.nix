@@ -5,7 +5,7 @@ builtins.attrValues (
     builtins.map (name: {
       imports = [ "${machinesDirectory}/${name}.nix" ];
     }) (builtins.filterSource (path: builtins.endsWith ".nix") (
-      builtins.concatStringsSep " " (builtins.readDir machinesDirectory)
+      builtins.concatStringsSep " " (builtins.attrNames (builtins.readDir machinesDirectory))
     ))
   )
 )
